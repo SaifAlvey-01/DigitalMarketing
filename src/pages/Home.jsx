@@ -5,7 +5,7 @@ import { Button, Img, Input, List, PagerIndicator, Text } from "components";
 const Home1Page = () => {
   return (
     <>
-      <div className="bg-black-900 bg-cover bg-no-repeat flex flex-col font-poppins h-full items-center justify-start mx-auto p-[49px] md:px-10 sm:px-5 w-full bg-[url('images/img_home.png')]">
+      <div className="bg-black-900 bg-cover bg-no-repeat flex flex-col font-poppins h-full items-center justify-start mx-auto p-[49px] md:px-10 sm:px-5 w-full bg-[url('./images/img_home.png')]">
         <div className="flex flex-col items-start justify-start max-w-[1180px] mb-[147px] mx-auto w-full">
           <header className="flex md:flex-col flex-row md:gap-5 items-center justify-center md:ml-[0] ml-[5px] w-full">
             <PagerIndicator
